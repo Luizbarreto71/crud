@@ -1,0 +1,89 @@
+.agendamento-info {
+   
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: white;
+    text-align: center;
+}
+ 
+.agendamento-info .info-content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+ 
+.agendamento  h2 {
+    font-size:2.5rem ;
+    margin-bottom: 10px;
+    font-family:'preconnec',sans-serif
+    
+
+}
+.agendamento p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+} 
+
+    
+
+.shedule-btn:hover {
+    background-color: #218838;
+}
+body {
+    margin: 0%;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('sam-moghadam-khamseh-I-kDEBUMAaQ-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+ 
+button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3;
+}
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.info-content {
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid wheat;
+    display: inline-block;
+}
+.info-content h2  {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.info-content p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

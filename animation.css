@@ -1,0 +1,17 @@
+#artext {
+    background:black ;
+    background-size: 1000% auto;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: inline-block;
+    animation: animated  35s linear infinite;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: poppins,sans-serif;
+}
+@keyframes animated {
+    0% {background-position: 800% center;}
+    800% {background-position: 0% center;}
+}
