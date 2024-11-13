@@ -4,38 +4,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    
-    
+       
     <title>Login</title>
-</head>
-<body>
-    <div class="container">
-        <h1 id="artext">Faça o seu login</h1>
-        <form>
-            <div class="form-control">
-                <input type="text" id="username" required>
-                <label>Email</label>
-            </div>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
-            <div class="form-control">
-                <input type="password" id="password" required>
-                <label>Senha</label>
-            </div>
+        
+        
+        <title>Login</title>
+    </head>
+    <body>
+        <div class="form-container">
+        <div class="tabs">
+           <button class="tab-btn active" onclick="showForm('login')">Login</button>
+           <button class="tab-btn" onclick="showForm ('cadastro')">Cadastro</button>
+        </div>
 
-            <button class="btn">Login</button>
+        <div class="form-content">
+            <form id="login-form" class="form active">
+                <h1 class="form-title">Faça o Seu Login</h1>
+                <div class="form-control">
+                    <label for="username">Email</label>
+                    <input type="text" id="username" required>
+                </div>
 
-            <p><a href="cadastro.html">Cadastre-se</a></p>
-        </form>
-    </div>
-    <script src="script.js"></script>
-    <footer class="footer">
-        <address>
-            <a>&copy;2024 Copyright - Direito dos</a>
-            <a href="mailto:adineysantos61@gmail.com"
-            style="text-decoration: none;"> Devs 404
-           </a>
-        </address>
-    </footer>
+                <div class="form-control">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" required>
+                </div>
+                <button class="btn">Login</button>
+            </form>
+
+            <form id="cadastro-form" class="form">
+                <h1 class="form-title">Cadastre-se</h1>
+                <div class="form-control">
+                      <label for="new-username">Email</label>
+                      <input type="text" id="new-username" required>
+                </div>
+
+                <div class="form-control">
+                    <label for="new-password">Senha</label>
+                    <input type="password" id="new-password" required>
+                    
+                </div>
+                <button class="btn">Cadastrar</button>
+            </form>
+        
+
+        <script src="script.js">
     
-</html>
+
+        </script>
+
+        <script src="login.js">
+            
+        </script>
+        </body>
+      
+       
+        
